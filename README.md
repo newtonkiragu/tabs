@@ -2,4 +2,5 @@
 An application to showcase the use of tabs to display content
 
 ## LICENCE
-MIT (c)18 Newton Karanu
+MIT
+Copyright (c) 2018 Newton Kiragu
