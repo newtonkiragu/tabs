@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>I am that guy</h1>
+    <div class="container">
+      <div class="tab">
+        <button type="button" class="tablinks" onclick="openFood(event, fastFood)" id='defaultOpen'name="fastFood">Fast Foods</button>
+        <button type="button" class="tablinks" onclick="openFood(event, drinks)" name="drinks">Drinks</button>
+        <button type="button" class="tablinks" onclick="openFood(event, rice)" name="rice">Rice</button>
+        <button type="button" class="tablinks" onclick="openFood(event, chicken)" name="chicken">Chicken</button>
+      </div>
+      <div class="tabcontent" id="fastFood">
+        <h3>Fast Foods</h3>
+        <div class="row">
+          <div class="col col-md-3">
+            <img src="http://majoumo.com/images/picture/picture3.jpg" alt="me">
+          </div>
+          <div class="col col-md-3">
+            <img src="http://majoumo.com/images/picture/picture3.jpg" alt="">
+          </div>
+          <img src="http://majoumo.com/images/picture/picture3.jpg" alt="">
+          <div class="col col-md-3">
+          </div>
+        </div>
+      </div>
+      <div id="drinks" class="tabcontent">
+        <h3>Drinks</h3>
+
+        <p>These are the drinks</p>
+
+      </div>
+      <div id="rice" class="tabcontent">
+        <h3>Rice</h3>
+
+        <p>These are the rice</p>
+
+      </div>
+      <div id="chicken" class="tabcontent">
+        <h3>Chicken</h3>
+
+        <p>These are the chicken</p>
+
+      </div>
+    </div>
+
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
